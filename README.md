@@ -4,7 +4,7 @@ This is a minimal Astro site for local development. The existing Jekyll site and
 
 Use Node.js 22.23.4 or newer and npm. Run `npm install` and `npm run dev`, then open the local URL printed by Astro. Use `npm run build` and `npm run preview` to build and preview the static site locally.
 Run `npm run format:check` to verify formatting, or `npm run format` to apply
-Prettier formatting.
+Prettier formatting. Run `npm run lint:markdown` to lint Markdown documentation.
 
 ## Astro Starter Kit: Minimal
 
@@ -44,6 +44,7 @@ All commands are run from the root of the project, from a terminal:
 | `npm run build`           | Build your production site to `./dist/`          |
 | `npm run format`          | Format supported project files with Prettier     |
 | `npm run format:check`    | Check formatting without changing files          |
+| `npm run lint:markdown`   | Lint Markdown documentation                      |
 | `npm run preview`         | Preview your build locally, before deploying     |
 | `npm run astro ...`       | Run CLI commands like `astro add`, `astro check` |
 | `npm run astro -- --help` | Get help using the Astro CLI                     |

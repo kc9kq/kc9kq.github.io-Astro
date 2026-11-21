@@ -2,12 +2,13 @@
   "semi": true,
   "singleQuote": true,
   "trailingComma": "all",
+  "tabWidth": 3,
   "plugins": ["prettier-plugin-astro"],
   "overrides": [
     {
-      "files": "*.astro",
+      "files": ["*.json", "*.jsonc", "*.yaml", "*.yml"],
       "options": {
-        "useTabs": true
+        "tabWidth": 2
       }
     }
   ]
