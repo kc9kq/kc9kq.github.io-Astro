@@ -15,7 +15,7 @@ As a licensed operator, you are assigned a call sign. You use that to identify y
 
 ### Getting a License
 
-To get a license and a call sign, you will need to pass the Technician exam. Additional exams that you can take are the General and the Amatuer Extra. Each grants you access to slices of the radio spectrum (Bands). Technician grants you VHF, UHF, and a slice of HF. General gives you most of the HF spectrum, Amatuer Extra gives you the rest.  Exams are regularly proctored in the area. Contact one of us for more information and where to start/go next.
+To get a license and a call sign, you will need to pass the Technician exam. Additional exams that you can take are the General and the Amatuer Extra. Each grants you access to slices of the radio spectrum (Bands). Technician grants you VHF, UHF, and a slice of HF. General gives you most of the HF spectrum, Amatuer Extra gives you the rest. Exams are regularly proctored in the area. Contact one of us for more information and where to start/go next.
 
 ### Hardware
 
