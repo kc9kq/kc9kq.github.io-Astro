@@ -6,7 +6,7 @@
   "plugins": ["prettier-plugin-astro"],
   "overrides": [
     {
-      "files": ["*.json", "*.jsonc", "*.yaml", "*.yml"],
+      "files": ["*.json", "*.jsonc", "*.yaml", "*.yml", "*.md"],
       "options": {
         "tabWidth": 2
       }

@@ -1,0 +1,43 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="816" height="1056" viewBox="0 0 816 1056" role="img" aria-labelledby="poster-title poster-description">
+  <title id="poster-title">Hidden Valleys Amateur Radio Club Hamfest 2026 poster</title>
+  <desc id="poster-description">Archived poster for the free hamfest held October 17, 2026, in Lancaster, Wisconsin. The preregistration email address is a clickable link.</desc>
+  <rect width="816" height="1056" fill="#f8f6ef"/>
+  <rect width="816" height="270" fill="#173c58"/>
+  <rect y="270" width="816" height="12" fill="#d58b39"/>
+  <g font-family="Arial, Helvetica, sans-serif">
+    <text x="54" y="52" fill="#f1c994" font-size="16" font-weight="700" letter-spacing="2">HIDDEN VALLEYS AMATEUR RADIO CLUB</text>
+    <text x="54" y="104" fill="#fff" font-size="24" font-weight="700" letter-spacing="1">3RD ANNUAL</text>
+    <text x="48" y="181" fill="#fff" font-size="76" font-weight="900" letter-spacing="1">FREE HAMFEST</text>
+    <text x="54" y="228" fill="#f1c994" font-size="21" font-weight="700" letter-spacing="1">LANCASTER, WISCONSIN</text>
+    <text x="762" y="253" fill="#d9e3eb" font-size="14" font-weight="700" text-anchor="end">2026 EVENT ARCHIVE</text>
+
+    <text x="54" y="338" fill="#52636c" font-size="16" font-weight="700" letter-spacing="2">DATE &amp; TIME</text>
+    <text x="54" y="383" fill="#173c58" font-size="37" font-weight="700">SATURDAY, OCTOBER 17, 2026</text>
+    <text x="54" y="423" fill="#263238" font-size="27" font-weight="700">8:00 AM – 1:00 PM</text>
+    <line x1="54" y1="451" x2="762" y2="451" stroke="#d4d7d4" stroke-width="2"/>
+
+    <text x="54" y="493" fill="#52636c" font-size="16" font-weight="700" letter-spacing="2">LOCATION</text>
+    <text x="54" y="532" fill="#173c58" font-size="29" font-weight="700">Grant County Fairgrounds</text>
+    <text x="54" y="564" fill="#263238" font-size="21">Youth and Ag Building</text>
+    <text x="54" y="594" fill="#263238" font-size="21">916 East Elm Street (County Road A)</text>
+    <text x="54" y="624" fill="#263238" font-size="21">Lancaster, WI 53813</text>
+
+    <rect x="54" y="655" width="708" height="92" rx="8" fill="#e5edf0"/>
+    <text x="76" y="692" fill="#173c58" font-size="23" font-weight="700">VE TESTING</text>
+    <text x="76" y="723" fill="#263238" font-size="20">New license candidates: 10:00 AM</text>
+    <text x="478" y="692" fill="#173c58" font-size="23" font-weight="700">TALK-IN</text>
+    <text x="478" y="723" fill="#263238" font-size="20">146.52 MHz</text>
+
+    <text x="54" y="793" fill="#173c58" font-size="22" font-weight="700">FREE DRAWING FOR DOOR PRIZES</text>
+    <text x="54" y="829" fill="#263238" font-size="19">Free admission, parking, seller table, coffee and donuts</text>
+    <text x="54" y="859" fill="#263238" font-size="19">Refreshments and lunch available</text>
+
+    <line x1="54" y1="883" x2="762" y2="883" stroke="#d4d7d4" stroke-width="2"/>
+    <text x="54" y="919" fill="#52636c" font-size="15" font-weight="700" letter-spacing="1">PRE-REGISTRATION EMAIL</text>
+    <a href="mailto:HVARChamfest@gmail.com">
+      <text x="54" y="953" fill="#0b557b" font-size="25" font-weight="700" text-decoration="underline">HVARChamfest@gmail.com</text>
+    </a>
+    <text x="54" y="982" fill="#263238" font-size="17">Please provide your name and call sign.</text>
+    <text x="54" y="1023" fill="#68747a" font-size="14">ARCHIVED EVENT • OCTOBER 17, 2026 HAS PASSED</text>
+  </g>
+</svg>
