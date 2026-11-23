@@ -17,6 +17,8 @@ Sunday evenings, members meet at 7:30 PM on the Beetown (N0WLU) repeater at 146.
 
 Monday and Friday mornings, members meet at 7:00 AM on the same Beetown repeater. These nets are also open to all licensed amateur radio operators.
 
+Tuesday mornings, Newer members are invited to join us on at 7:30 Am the same repeater. This "Newbie" net is geared to help new hams ease in to being on the air.
+
 ## Notes
 
 Meeting dates and times are subject to change without notice.
