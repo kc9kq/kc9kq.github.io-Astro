@@ -1,6 +1,7 @@
 ---
 layout: ../layouts/SiteLayout.astro
-title: Mesh
+title: Long-Range Mesh-based communications (Mesh)
+description: All you need to know about MeshCore and Meshtastic.
 ---
 
 ## LoRa in General

@@ -1,6 +1,6 @@
 ---
 layout: ../layouts/SiteLayout.astro
-title: Events
+title: Regular Events
 description: Annual events and activities of the Hidden Valleys Amateur Radio Club.
 ---
 
@@ -17,6 +17,10 @@ HVARC occasionally participates in Winter Field Day. The event location is decid
 The West Allis Radio Amateur Club hosts this event annually on the second weekend of March. HVARC members participate every year. While the ultimate goal is to activate all 72 counties, club members tend to use their own discretion in participating in the event. It takes place on the second Sunday of March. Be ready because that's also the first day of DST in the USA for the year! However, one can observe the history of Wisconsin QSO Party at the event website
 
 More information is available on [WARAC's site](https://www.warac.org/wqp/wqp.htm).
+
+## Parks on the Air
+
+Parks on the Air (POTA) is a promotion program for getting the word of HAM radio as an emergency communications method out by setting up a portable station in a state or national park. Club member have done this in the past and the opportunity exists for this to take place again. more info at [the POTA website](https://parksontheair.com/)
 
 ## Hamfests and Conventions
 

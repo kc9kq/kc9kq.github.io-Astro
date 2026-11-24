@@ -7,6 +7,7 @@
     "node": ">=22.23.4"
   },
   "scripts": {
+    "all": "npm run build && npm run check && npm run format:check && npm run lint:markdown",
     "dev": "astro dev",
     "build": "astro build",
     "check": "astro check",

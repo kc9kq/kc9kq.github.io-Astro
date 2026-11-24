@@ -3,9 +3,12 @@
 This is the Astro site for local development and a GitHub Pages preview. The existing Jekyll site and its deployment are unchanged.
 
 Use Node.js 22.23.4 or newer and npm. Run `npm install` and `npm run dev`, then open the local URL printed by Astro. Use `npm run build` and `npm run preview` to build and preview the static site locally.
+Run `npm run all` to build and run all checks.
 Run `npm run format:check` to verify formatting, or `npm run format` to apply
 Prettier formatting. Run `npm run lint:markdown` to lint Markdown documentation.
 Markdown files use two-space indentation.
+JSON and JSONC files also use two-space indentation and no trailing commas;
+the formatting check verifies these conventions in CI.
 
 ## GitHub Pages preview
 
@@ -56,6 +59,7 @@ All commands are run from the root of the project, from a terminal:
 | Command                   | Action                                           |
 | :------------------------ | :----------------------------------------------- |
 | `npm install`             | Installs dependencies                            |
+| `npm run all`             | Build and run all checks                         |
 | `npm run dev`             | Starts local dev server at `localhost:4321`      |
 | `npm run build`           | Build your production site to `./dist/`          |
 | `npm run format`          | Format supported project files with Prettier     |

@@ -1,6 +1,7 @@
 ---
 layout: ../layouts/SiteLayout.astro
 title: Amateur Radio
+description: All you need to know about Amateur radio.
 ---
 
 <img src="../images/homebase_antenna.webp" alt="Amateur radio base station and antennas" width="400" style="float: left; margin: 5px;">Amateur — “ham” — radio is a licensed service for experimentation and communication across an enormous range of bands and modes. It’s where you go when you want to build, tinker, and reach further than any consumer radio allows.
@@ -15,6 +16,8 @@ As a licensed operator, you are assigned a call sign. You use that to identify y
 
 To get a license and a call sign, you will need to pass the Technician exam. Additional exams that you can take are the General and the amateur Extra. Each grants you access to slices of the radio spectrum (Bands). Technician grants you VHF, UHF, and a slice of HF. General gives you most of the HF spectrum, amateur Extra gives you the rest. Exams are regularly proctored in the area. Contact one of us for more information and where to start/go next.
 
+As an incentive, if you are a club member that is not yet licensed, you can receive a **free handheld radio** upon passing your license (Technician) exam and getting your call sign.
+
 ## Hardware
 
 You can set up a base station transceiver and an antenna - also if necessary a tuner and amplifier. There are a wide variety of off-the-shelf stations and antenna with connection cables available. You can also make your own antenna. strategically mount and tune the antenna to connect with repeaters and optimum contact finding. A TV tower is ideal, but not everyone has one nowadays, so mounting to a roof or a supported pole are good alternatives. Handheled radios (k.k.a "handie talkies") and Mobile setups for a car or for remote setups are also available. Take care to protect your equipment from weather. Our club members are available to help out with installing your equipment
@@ -23,7 +26,7 @@ You can set up a base station transceiver and an antenna - also if necessary a t
 
 ### Beetown Repeater (N0WLU)
 
-Amateur — “ham” — The club sponsors and operates the Beetown, WI 2-meter band (VHF) to support local conversation over the air as well as various nets.
+The club sponsors and operates the Beetown, WI 2-meter band (VHF) to support local conversation over the air as well as various nets.
 
 repeater connection tuning:
 
