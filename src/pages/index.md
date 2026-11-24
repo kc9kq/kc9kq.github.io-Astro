@@ -13,8 +13,4 @@ Welcome to the home of the Hidden Valleys Amateur Radio Club (HVARC). We are a s
 
 All amateur radio operators and anyone interested in amateur radio are welcome at club meetings and events.
 
-## Upcoming Events
-
-Christmas Pizza Party: December 8, 2026 at 5:30, Pizzeria Uno in Platteville. [Location on Google Maps for directions](https://maps.app.goo.gl/kcTtSSqCTZqTi7tv6)
-
-<img src="./images/Festive%20HVARC%20Ham%20Radio%20Station.png" alt="Festive Hidden Valleys Amateur Radio Club ham radio station">
+<img src="./images/HVARC%20Holiday%20Pizza%20Party%20Flyer.png" alt="Festive Hidden Valleys Amateur Radio Club ham radio station">
