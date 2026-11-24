@@ -2,7 +2,7 @@
   "config": {
     "MD024": { "siblings_only": true },
     "MD013": false,
-    "MD033": { "allowed_elements": ["img"] },
+    "MD033": { "allowed_elements": ["img", "picture"] }
   },
-  "ignores": ["node_modules/**", "dist/**", ".astro/**", "LICENSE"],
+  "ignores": ["node_modules/**", "dist/**", ".astro/**", "LICENSE"]
 }

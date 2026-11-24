@@ -16,7 +16,6 @@ const navigation = [
    { label: 'Events', href: '/events/' },
    // { label: 'Field Day', href: '/fieldday/' },
    // { label: 'Hamfest', href: '/hamfest/' },
-   // { label: 'Infrastructure', href: '/infrastructure/' },
    { label: 'Amateur Radio', href: '/amateur-radio/' },
    { label: 'Mesh', href: '/mesh/' },
    { label: 'Links', href: '/links/' },
@@ -66,12 +65,26 @@ const navigation = [
             href={sitePath('/')}
             aria-label="Hidden Valleys Amateur Radio Club home"
          >
-            <img
-               src={sitePath('/assets/hvarc_image32.png')}
-               alt=""
-               width="37"
-               height="37"
-            />
+            <picture class="brand-logo">
+               <img
+                  class="brand-logo-light"
+                  src={sitePath(
+                     '/images/KC9KQ Hidden Valleys Radio Club Logo light.png',
+                  )}
+                  alt=""
+                  width="37"
+                  height="37"
+               />
+               <img
+                  class="brand-logo-dark"
+                  src={sitePath(
+                     '/images/KC9KQ Hidden Valleys Radio Club Logo dark.png',
+                  )}
+                  alt=""
+                  width="37"
+                  height="37"
+               />
+            </picture>
             <span>Hidden Valleys Amateur Radio Club</span>
          </a>
          <nav aria-label="Main navigation">
@@ -102,7 +115,9 @@ const navigation = [
          </button>
       </header>
       <main class="content">
-         <h1>{pageTitle}</h1>
+         <h1 class={page.title === 'Home' ? 'visually-hidden' : undefined}>
+            {pageTitle}
+         </h1>
          <slot />
       </main>
       <footer class="site-footer">
@@ -225,7 +240,23 @@ const navigation = [
 
    .brand img {
       flex: none;
+      width: 37px;
+      height: 37px;
       object-fit: contain;
+   }
+
+   .brand-logo {
+      display: contents;
+   }
+
+   :global(:root[data-theme='light']) .brand-logo-dark,
+   :global(:root[data-theme='dark']) .brand-logo-light {
+      display: none;
+   }
+
+   :global(:root[data-theme='light'] .theme-logo-dark),
+   :global(:root[data-theme='dark'] .theme-logo-light) {
+      display: none;
    }
 
    nav ul {
@@ -268,6 +299,16 @@ const navigation = [
       margin: 2rem auto 3rem;
    }
 
+   .visually-hidden {
+      position: absolute;
+      width: 1px;
+      height: 1px;
+      overflow: hidden;
+      clip: rect(0 0 0 0);
+      clip-path: inset(50%);
+      white-space: nowrap;
+   }
+
    .content :global(.repeater-image) {
       float: right;
       margin: 5px;
@@ -278,10 +319,16 @@ const navigation = [
       margin: 5px;
    }
 
-   :global(.home-page .content > img:first-of-type) {
+   :global(.home-page .content > .theme-logo) {
       float: right;
-      max-width: 120px;
+      display: block;
+      max-width: 360px;
       margin: 0 0 1.5rem 1.5rem;
+   }
+
+   :global(.home-page .content > .theme-logo img) {
+      width: 100%;
+      height: auto;
    }
 
    .site-footer {
@@ -350,7 +397,7 @@ const navigation = [
          gap: 0.5rem 0.9rem;
       }
 
-      :global(.home-page .content > img:first-of-type) {
+      :global(.home-page .content > .theme-logo) {
          float: none;
          display: block;
          margin: 0 auto 1.5rem;
@@ -377,6 +424,16 @@ const navigation = [
          flex-direction: row;
          flex-wrap: wrap;
          gap: 0.25rem 1.25rem;
+      }
+   }
+
+   @media (max-width: 30rem) {
+      .brand {
+         font-size: clamp(0.6875rem, 3.8vw, 0.875rem);
+      }
+
+      .brand span {
+         white-space: nowrap;
       }
    }
 </style>
