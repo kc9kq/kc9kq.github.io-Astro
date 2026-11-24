@@ -4,25 +4,31 @@ title: Field Day 2026 Archive
 description: Historical details from the 2026 Field Day event hosted by HVARC and GRARC.
 ---
 
-> **2026 event archive:** This event has passed. These details are retained for reference and are not current event information.
+> **2027 event notice:** While the event date is set. Participation and location are not yet finalized
 
-## Field Day 2026 with HVARC and GRARC
+## Field Day 2027 with HVARC and GRARC
 
 GRARC and HVARC teamed up to celebrate Field Day.
 
-### Where
+## What
 
-Grant County Fairgrounds  
-Youth and Ag Building Kitchen and Midway field  
-916 East Elm Street (County Road A)  
+It is an organized by the American Radio Relay League as part of a global event. It consists of activities conducted by amateur radio operators, including a radio contest, demonstrations for the public, media outreach, and emergency communications practice.
+
+HVARC regularly participates in Field Day. The event location is decided at meetings beforehand. Equipment is supplied by operators, and the club owns a trailer used for operations. The club uses its call sign (KC9KQ) so new and inexperienced operators can participate in contacts reserved for General and Amateur Extra licensees.
+
+## Where
+
+Grant County Fairgrounds
+Youth and Ag Building Kitchen and Midway field
+916 East Elm Street (County Road A)
 Lancaster, Wisconsin 53813
 
-### When
+## When
 
-June 27-28, 2026  
-Operations started at 1:00 PM on June 27. Clubs started setting up at 9:00 AM.
+June 26-27, 2027  
+Operations start at 1:00 PM on June 27. Clubs started setting up at 9:00 AM.
 
-### Details
+## Details
 
 The Great River Amateur Radio Club provided [event details](https://www.w0dbq.org/field-day-2026).
 
