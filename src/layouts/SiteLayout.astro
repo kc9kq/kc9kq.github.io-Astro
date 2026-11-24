@@ -46,6 +46,18 @@ const navigation = [
          type="image/png"
          href={sitePath('/assets/favicon.png')}
       />
+      <script is:inline>
+         const savedTheme = localStorage.getItem('hvarc-theme');
+         const preferredTheme = window.matchMedia(
+            '(prefers-color-scheme: dark)',
+         ).matches
+            ? 'dark'
+            : 'light';
+         document.documentElement.dataset.theme =
+            savedTheme === 'dark' || savedTheme === 'light'
+               ? savedTheme
+               : preferredTheme;
+      </script>
    </head>
    <body class={page.title === 'Home' ? 'home-page' : undefined}>
       <header class="site-header">
@@ -80,6 +92,14 @@ const navigation = [
                ))}
             </ul>
          </nav>
+         <button
+            class="theme-toggle"
+            type="button"
+            aria-label="Toggle dark mode"
+            aria-pressed="false"
+         >
+            Dark mode
+         </button>
       </header>
       <main class="content">
          <h1>{pageTitle}</h1>
@@ -152,6 +172,25 @@ const navigation = [
 
          labelResponsiveTableCells();
 
+         const themeToggle = document.querySelector('.theme-toggle');
+         const setTheme = (theme, persist = false) => {
+            document.documentElement.dataset.theme = theme;
+            themeToggle.setAttribute('aria-pressed', String(theme === 'dark'));
+            if (persist) {
+               localStorage.setItem('hvarc-theme', theme);
+            }
+         };
+
+         setTheme(document.documentElement.dataset.theme);
+         themeToggle.addEventListener('click', () => {
+            setTheme(
+               document.documentElement.dataset.theme === 'dark'
+                  ? 'light'
+                  : 'dark',
+               true,
+            );
+         });
+
          const content = document.querySelector('.content');
          if (content) {
             new MutationObserver(labelResponsiveTableCells).observe(content, {
@@ -171,14 +210,14 @@ const navigation = [
       justify-content: space-between;
       gap: 1rem 2rem;
       padding: 1rem max(1.25rem, calc((100% - 72rem) / 2));
-      border-bottom: 1px solid #d6d6d6;
+      border-bottom: 1px solid var(--border-color);
    }
 
    .brand {
       display: inline-flex;
       align-items: center;
       gap: 0.6rem;
-      color: #173c58;
+      color: var(--link-color);
       font-size: 1.15rem;
       font-weight: 700;
       text-decoration: none;
@@ -199,7 +238,7 @@ const navigation = [
    }
 
    nav a {
-      color: #173c58;
+      color: var(--link-color);
       text-decoration: none;
    }
 
@@ -207,6 +246,20 @@ const navigation = [
    nav a[aria-current='page'] {
       text-decoration: underline;
       text-underline-offset: 0.2em;
+   }
+
+   .theme-toggle {
+      padding: 0.45rem 0.7rem;
+      border: 1px solid var(--border-color);
+      border-radius: 0.35rem;
+      background: var(--surface-background);
+      color: var(--page-text);
+      font: inherit;
+      cursor: pointer;
+   }
+
+   .theme-toggle:hover {
+      border-color: var(--link-color);
    }
 
    .content {
@@ -234,9 +287,9 @@ const navigation = [
    .site-footer {
       clear: both;
       padding: 1.5rem max(1.25rem, calc((100% - 72rem) / 2));
-      border-top: 1px solid #d6d6d6;
-      background: #f5f5f5;
-      color: #444;
+      border-top: 1px solid var(--border-color);
+      background: var(--surface-background);
+      color: var(--surface-text);
    }
 
    .footer-content {
@@ -265,7 +318,7 @@ const navigation = [
       display: inline-flex;
       align-items: center;
       gap: 0.45rem;
-      color: #2873a7;
+      color: var(--link-accent);
       text-decoration: none;
    }
 
@@ -278,14 +331,19 @@ const navigation = [
       line-height: 1.6;
    }
 
-   :global(a:focus-visible) {
-      outline: 3px solid #b24800;
+   :global(a:focus-visible),
+   .theme-toggle:focus-visible {
+      outline: 3px solid var(--focus-color);
       outline-offset: 3px;
    }
 
    @media (max-width: 48rem) {
       .site-header {
          align-items: flex-start;
+      }
+
+      .theme-toggle {
+         margin-left: auto;
       }
 
       nav ul {
