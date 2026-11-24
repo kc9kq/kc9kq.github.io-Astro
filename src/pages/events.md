@@ -20,7 +20,7 @@ More information is available on [WARAC's site](https://www.warac.org/wqp/wqp.ht
 
 ## Parks on the Air
 
-Parks on the Air (POTA) is a promotion program for getting the word of HAM radio as an emergency communications method out by setting up a portable station in a state or national park. Club member have done this in the past and the opportunity exists for this to take place again.  more info at [the POTA website](https://parksontheair.com/)
+Parks on the Air (POTA) is a promotion program for getting the word of HAM radio as an emergency communications method out by setting up a portable station in a state or national park. Club member have done this in the past and the opportunity exists for this to take place again. more info at [the POTA website](https://parksontheair.com/)
 
 ## Hamfests and Conventions
 
