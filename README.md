@@ -20,6 +20,18 @@ The Astro build targets the root of `https://www.kc9kq.net`. Use page-relative
 links in Markdown, and relative HTML `<img>` paths for files in `public/`;
 Astro treats relative Markdown image paths as source imports.
 
+## Dependency updates
+
+Renovate proposes dependency updates as pull requests for manual review and
+merge; automerge is disabled. Its Dependency Dashboard issue tracks updates
+and flags potentially abandoned packages.
+
+The update window is midnight to 5 a.m. Central Time each night. Renovate's
+service controls its actual run frequency, so the window does not guarantee
+exactly one run per night. Install and enable the Renovate GitHub App for this
+repository to use the configuration. Dependabot remains enabled separately and
+may also propose updates.
+
 ## Astro Starter Kit: Minimal
 
 ```sh
