@@ -10,20 +10,15 @@ Markdown files use two-space indentation.
 JSON and JSONC files also use two-space indentation and no trailing commas;
 the formatting check verifies these conventions in CI.
 
-## GitHub Pages preview
+## Production deployment
 
-CI checks pull requests and builds a separate project-site preview on pushes to
-`main`. Once this repository's Pages source is set to **GitHub Actions**, the
-preview is published at <https://kc9kq.github.io/kc9kq.github.io-Astro/>.
-GitHub redirects it to <https://www.kc9kq.net/kc9kq.github.io-Astro/> because
-the organization site uses that custom domain. The preview is public and marked
-`noindex`; the existing Jekyll site at the domain root remains unchanged.
+Pull requests run the site checks. Pushes to `main` build and deploy the
+production site to <https://www.kc9kq.net/> using GitHub Pages and the custom
+domain in `public/CNAME`. This replaces the previous Jekyll site.
 
-The workflow sets `GITHUB_PAGES_PREVIEW=true` to build with the preview's
-repository path and canonical URL. Without this variable, the build targets
-the root of `https://www.kc9kq.net` for a future production cutover. Use
-page-relative links in Markdown, and relative HTML `<img>` paths for files in
-`public/`; Astro treats relative Markdown image paths as source imports.
+The Astro build targets the root of `https://www.kc9kq.net`. Use page-relative
+links in Markdown, and relative HTML `<img>` paths for files in `public/`;
+Astro treats relative Markdown image paths as source imports.
 
 ## Astro Starter Kit: Minimal
 
