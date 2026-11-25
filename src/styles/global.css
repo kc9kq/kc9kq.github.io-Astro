@@ -61,12 +61,24 @@ body {
    height: auto;
 }
 
+.content .dinner-feature {
+   display: block;
+   width: 100%;
+   max-width: 70.125rem;
+   margin-inline: auto;
+}
+
 .content table {
    display: block;
    max-width: 100%;
    overflow-x: auto;
    border-collapse: collapse;
    font-size: 0.875em;
+}
+
+.content table.dinner-feature {
+   display: table;
+   table-layout: fixed;
 }
 
 .content th,
@@ -97,6 +109,10 @@ body {
       width: 100%;
       overflow-x: visible;
       font-size: 1rem;
+   }
+
+   .content table.dinner-feature {
+      display: block;
    }
 
    .content thead {

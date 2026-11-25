@@ -15,7 +15,9 @@ MeshCore is an open-source LoRa mesh platform for sending text off-grid — no i
 
 Its big idea is roles. Instead of every node relaying everything (which gets noisy fast), MeshCore splits the network into companions, repeaters, and room servers. Companion radios don’t rebroadcast by default, so the airwaves stay clear and the mesh scales cleanly — you grow coverage by placing repeaters up high, not by adding chatter. (lifted from [RFLab.io: MeshCore](https://rflab.io/topics/MeshCore.html))
 
-HVARC members have been participating in MeshCore activity since 2026 Along with UWP-ARC (UW Platteville's student club) to install repeaters, beginning in Platteville. The area backbone repeater is **UWP-1-Platteville-Mound**, which covers a wide area of Grant, Iowa and Lafayette Counties and links us to the rest of the **Madison mesh**. The UWP Club has also installed a campus repeater on Ottensman Hall's roof, **UWP-6-Otts**. Both of these repeaters been installed high enough to be connected to from potentially as far away as Potosi, Lancaster, and Hazel Green. It is part of a larger scale mesh centering around Madison and includes Dodgeville, Janesville/Beloit, Portage, Sauk City, and beyond to Milwaukee and Chicago. HVARC and UWP-ARC are working to install a repeater on the Hospital roof to take advantage of its location on high ground and its line of sight around the area.
+HVARC members have been participating in MeshCore activity since 2026 Along with UWP-ARC (UW Platteville's student club) to install repeaters, beginning in Platteville. The area backbone repeater is **UWP-1-Platteville-Mound**, which covers a wide area of Grant, Iowa and Lafayette Counties and links us to the rest of the **Dubuque mesh**, to **Madison Mesh** and beyond. The UWP Club has also installed a campus repeater on Ottensman Hall's roof, **UWP-6-Otts**. Both of these repeaters been installed high enough to be connected to from potentially as far away as Potosi, Lancaster, and Hazel Green. It is part of a larger scale mesh centering around Madison and includes Dodgeville, Janesville/Beloit, Portage, Sauk City, and beyond to Milwaukee and Chicago. HVARC and UWP-ARC are working to install a repeater on the Hospital roof to take advantage of its location on high ground and its line of sight around the area. 
+
+The long term goal will be assisting in establishing meshes in neighboring counties in Illinois, Iowa, and Wisconsin along the Mississippi River - and helping to support/train users and maintainers.
 
 Individual members have already set up companion radios (used with smart phone apps to send messages and manage repeaters) ,installed MeshCore repeaters on their homes, and/or set up observers and room servers.
 
@@ -29,7 +31,7 @@ As MeshCore is a networked mesh, strategic placement of repeaters goes a long wa
   - CoreScope: live monitor of the mesh network worldwide as the hop from repeater to repeater, with details of the packet types for examination and improvement
   - Tower Map: Map of existing Wisconsin towers that could be candidates for new wide-area repeaters - with a tool to calculate reachability.
 - [Meshmapper](https://meshmapper.net/) - [Discord](https://discord.gg/KbqcJVzYP): A real-time map of repeaters/room servers and a grid-based record of coverage mapped to the repeaters. Crowdsourced through the act of "wardriving" (pinging repeaters on the fly along roads)
-  - Region maps: ([MSN](https://msn.meshmapper.net/), DBQ (Coming soon))
+  - Region maps: [DBQ](https://dbq.meshmapper.net) our region, [MSN](https://msn.meshmapper.net/) our sister region (Iowa County, WI)
 
 ## Meshtastic
 
