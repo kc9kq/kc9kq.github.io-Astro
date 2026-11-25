@@ -16,6 +16,8 @@ As a licensed operator, you are assigned a call sign. You use that to identify y
 
 To get a license and a call sign, you will need to pass the Technician exam. Additional exams that you can take are the General and the amateur Extra. Each grants you access to slices of the radio spectrum (Bands). Technician grants you VHF, UHF, and a slice of HF. General gives you most of the HF spectrum, amateur Extra gives you the rest. Exams are regularly proctored in the area. Contact one of us for more information and where to start/go next.
 
+Study guides are available online or in the Google Play or Apple App store. One of our of favorites is [KB6NU's No-Nonsense Study Guide](https://www.kb6nu.com/study-guides/)
+
 As an incentive, if you are a club member that is not yet licensed, you can receive a **free handheld radio** upon passing your license (Technician) exam and getting your call sign.
 
 ## Hardware
