@@ -4,6 +4,7 @@ This is the Astro site for local development and a GitHub Pages preview. The exi
 
 Use Node.js 22.23.4 or newer and npm. Run `npm install` and `npm run dev`, then open the local URL printed by Astro. Use `npm run build` and `npm run preview` to build and preview the static site locally.
 Run `npm run all` to build and run all checks.
+Run `npm test` to test Markdown link conversion.
 Run `npm run format:check` to verify formatting, or `npm run format` to apply
 Prettier formatting. Run `npm run lint:markdown` to lint Markdown documentation.
 Markdown files use two-space indentation.
@@ -16,8 +17,10 @@ Pull requests run the site checks. Pushes to `main` build and deploy the
 production site to <https://www.kc9kq.net/> using GitHub Pages and the custom
 domain in `public/CNAME`. This replaces the previous Jekyll site.
 
-The Astro build targets the root of `https://www.kc9kq.net`. Use page-relative
-links in Markdown, and relative HTML `<img>` paths for files in `public/`;
+The Astro build targets the root of `https://www.kc9kq.net`. Relative Markdown
+links to `.md` files in `src/pages/` resolve from the source file to the
+corresponding page URL, including query strings and fragments. Other links
+are unchanged. Use relative HTML `<img>` paths for files in `public/`;
 Astro treats relative Markdown image paths as source imports.
 
 ## Dependency updates
@@ -67,6 +70,7 @@ All commands are run from the root of the project, from a terminal:
 | :------------------------ | :----------------------------------------------- |
 | `npm install`             | Installs dependencies                            |
 | `npm run all`             | Build and run all checks                         |
+| `npm test`                | Test Markdown link conversion                    |
 | `npm run dev`             | Starts local dev server at `localhost:4321`      |
 | `npm run build`           | Build your production site to `./dist/`          |
 | `npm run format`          | Format supported project files with Prettier     |

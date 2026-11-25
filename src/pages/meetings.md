@@ -13,11 +13,13 @@ The Hidden Valleys Amateur Radio Club meets on the second Tuesday of each month 
 
 ## On-the-Air Nets
 
+see [Beetown Repeater section in Amateur Radio](./amateur-radio.md#beetown-repeater-n0wlu) for tuning paramters
+
 Sunday evenings, members meet at 7:30 PM on the Beetown (N0WLU) repeater at 146.895 MHz with a PL tone of 114.8. All licensed amateur radio operators are welcome to check in.
 
 Monday and Friday mornings, members meet at 7:00 AM on the same Beetown repeater. These nets are also open to all licensed amateur radio operators.
 
-Tuesday mornings, Newer members are invited to join us on at 7:30 Am the same repeater. This "Newbie" net is geared to help new hams ease in to being on the air.
+Tuesday evenings (all Tuesdays of the month except the 2nd - which is our meeting night), Newer members are invited to join us on at 7:30 PM the same repeater. This "Newbie" net is geared to help new hams ease in to being on the air.
 
 ## Notes
 
