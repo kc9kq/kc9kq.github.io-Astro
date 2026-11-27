@@ -1,0 +1,31 @@
+---
+import { getCollection, render } from 'astro:content';
+import SiteLayout from '../../layouts/SiteLayout.astro';
+
+export async function getStaticPaths() {
+   const minutes = await getCollection('minutes', ({ data }) => !data.draft);
+
+   return minutes.map((entry) => ({
+      params: { slug: entry.id },
+      props: { entry },
+   }));
+}
+
+const { entry } = Astro.props;
+const { Content } = await render(entry);
+const formattedDate = new Intl.DateTimeFormat('en-US', {
+   dateStyle: 'long',
+   timeZone: 'UTC',
+}).format(entry.data.date);
+---
+
+<SiteLayout
+   title={entry.data.title}
+   description={`Meeting minutes for ${formattedDate}.`}
+>
+   <p>
+      <time datetime={entry.data.date.toISOString()}>{formattedDate}</time>
+      {entry.data.location && ` · ${entry.data.location}`}
+   </p>
+   <Content />
+</SiteLayout>

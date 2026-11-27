@@ -13,6 +13,13 @@ Welcome to the home of the Hidden Valleys Amateur Radio Club (HVARC). We are a s
 
 All amateur radio operators and anyone interested in amateur radio are welcome at club meetings and events.
 
+## Meeting minutes
+
+- [Most recent meeting's minutes (Nov 2026)](./minutes/2026-11/)
+- [Full list of minutes](./minutes)
+
+## This month's events
+
 <img class="dinner-feature" src="./images/Christmas club dinner poster.png" alt="Festive Hidden Valleys Amateur Radio Club ham radio station">
 
 <!-- markdownlint-disable MD033 -->
